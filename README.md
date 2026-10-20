@@ -1,18 +1,21 @@
-# Hi, I'm Carlos 👋
+# Hi, I'm Carlos
 
-**Applied AI / ML engineer and former startup CTO.** I take ML and LLM systems from prototype to production — and I ship them behind real evaluations and observability, not hope.
+I build LLM agents and the evaluation around them. I'm a Senior AI Engineer at HP's AI Center of Excellence.
 
-- 🔭 **Now:** Senior AI Engineer at **HP's** first European AI Center of Excellence — production LLM & agentic systems (authored *Loki*, an internal type-safe agent library; helped take *Nio* to GA).
-- 🩺 **Before:** **CTO at Methinks** (8 yrs) — CE-marked, FDA-certified medical-imaging AI deployed in hospitals. 2× Kaggle RSNA gold medals.
-- 🧪 **For fun:** a self-hosted **LLM gateway + multi-agent homelab** — LiteLLM routing, guardrails, observability and MCP across a DGX Spark, a Mac Studio, and a Raspberry Pi mesh.
+- **Now:** at HP I led the design and implementation of an internal typed agent library (Pydantic AI and Pydantic Graph), and led the implementation of Nio, a customer-facing assistant, from prototype to general availability.
+- **Before:** I was the first hire at Methinks, a stroke-imaging startup, and stayed eight years: detection of large-vessel occlusion and hemorrhage from non-contrast CT, CE marked, FDA cybersecurity certified, deployed in hospitals, validated in *Stroke*. Two Kaggle RSNA gold medals with the team.
+- **At home:** a DGX Spark serving local models behind llama-swap, where I test inference and quantization.
 
-### A few things I've built
-- [**rayuela**](https://github.com/macayaven/rayuela) — computational literary analysis of Cortázar's *Rayuela*: latent-space discovery via embeddings, LLMs, and topological data analysis.
-- [**docker-neural-memory**](https://github.com/macayaven/docker-neural-memory) — neural memory that learns at *test time* (Titans / test-time-training), containerized.
-- [**nemoclaw**](https://github.com/macayaven/nemoclaw) — TDD deployment framework for my secure multi-agent stack across DGX Spark / Mac Studio / Raspberry Pi.
-- [**neurofisio**](https://github.com/macayaven/neurofisio) — clinical EEG pipeline for the TUH EEG Corpus: EDF parsing, bipolar montage, Hugging Face dataset creation, Streamlit viz.
+### Recent open-source work
+- [inspect_ai#5799](https://github.com/UKGovernmentBEIS/inspect_ai/pull/5799): name scores with a dict of scorers in Inspect's `score()` (in review).
+- [vllm#59770](https://github.com/vllm-project/vllm/issues/59770#issuecomment-5998167650): reproduced an NVFP4 decode regression on GB10 and traced it to a FlashInfer cuDNN gate.
+
+### Things I've built
+- [agent-harness-path](https://github.com/macayaven/agent-harness-path): a self-contained course on building, evaluating and governing LLM agents.
+- [rayuela](https://github.com/macayaven/rayuela): a computational reading of Cortázar's *Rayuela* with embeddings, LLMs and permutation tests.
+- [docker-neural-memory](https://github.com/macayaven/docker-neural-memory): neural memory that learns at test time (Titans / TTT), in a container.
 
 ### Stack
-Python · PyTorch · Hugging Face · LLMs · agents (Pydantic AI/Graph, MCP) · RAG · evals (golden sets, regression) · vLLM · LiteLLM · Langfuse · Docker / Kubernetes · AWS
+Python · PyTorch · Hugging Face · LLM agents (Pydantic AI, MCP) · evals and tracing (Langfuse, MLflow) · vLLM · llama.cpp · Docker / Kubernetes · AWS
 
-🌐 [carloscrespomacaya.com](https://carloscrespomacaya.com) · 💼 [LinkedIn](https://www.linkedin.com/in/carlos-crespo-macaya/) · 🤗 [Hugging Face](https://huggingface.co/macayaven) · 🏅 [Kaggle](https://www.kaggle.com/macayaven)
+[carloscrespomacaya.com](https://carloscrespomacaya.com) · [LinkedIn](https://www.linkedin.com/in/carlos-crespo-macaya/) · [Hugging Face](https://huggingface.co/macayaven) · [Kaggle](https://www.kaggle.com/macayaven)
