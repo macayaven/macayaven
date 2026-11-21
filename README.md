@@ -18,4 +18,4 @@ I build LLM agents and the evaluation around them. I'm a Senior AI Engineer at H
 ### Stack
 Python · PyTorch · Hugging Face · LLM agents (Pydantic AI, MCP) · evals and tracing (Langfuse, MLflow) · vLLM · llama.cpp · Docker / Kubernetes · AWS
 
-[carloscrespomacaya.com](https://carloscrespomacaya.com) · [LinkedIn](https://www.linkedin.com/in/carlos-crespo-macaya/) · [Hugging Face](https://huggingface.co/macayaven) · [Kaggle](https://www.kaggle.com/macayaven)
+[carloscrespomacaya.com](https://carloscrespomacaya.com) · [LinkedIn](https://www.linkedin.com/in/carlos-crespo-macaya/) · [Hugging Face](https://huggingface.co/macayaven) · [Kaggle](https://www.kaggle.com/macayaven) · [X](https://x.com/macayaven)
